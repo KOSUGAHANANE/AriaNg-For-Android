@@ -15,7 +15,7 @@ Use folowing command to download and install it:
 apt install wget -y
 wget 'https://github.com/Saint-Theana/Terminal-AriaNg-For-Android/raw/master/For-Neoterm/aria2-ariang-controler_1.1_aarch64.deb'
 dpkg -i aria2*
-apt -f install
+apt -f install -y
 ariang
 ```
 
