@@ -12,7 +12,7 @@ Download Neoterm: https://www.coolapk.com/apk/io.neoterm
 Use folowing command to download and install it:
 
 ```shell
-apt install wget
+apt install wget -y
 wget 'https://github.com/Saint-Theana/Terminal-AriaNg-For-Android/raw/master/For-Neoterm/aria2-ariang-controler_1.1_aarch64.deb'
 dpkg -i ariang*
 apt -f install
