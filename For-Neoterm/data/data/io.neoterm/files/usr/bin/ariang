@@ -1,4 +1,8 @@
+#!/data/data/io.neoterm/files/usr/bin/sh
 ########路径设置
+export PATH=/data/data/io.neoterm/files/usr/bin:/data/data/io.neoterm/files/usr/bin/applets
+export LD_LIBRARY_PATH=/data/data/io.neoterm/files/usr/lib
+
 Aria2="/data/data/io.neoterm/files/usr/etc/Aria2"
 aria2conf="/data/data/io.neoterm/files/usr/etc/Aria2/conf/aria2.conf"
 
