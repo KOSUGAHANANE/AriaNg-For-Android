@@ -50,13 +50,6 @@ apt install android-platform-tools
 adb shell
 ```
 
-3,运行ariang (run ariang)
-```shell
-LD_LIBRARY_PATH=/data/data/io.neoterm/files/usr/lib /data/data/io.neoterm/files/usr/bin/ariang
-```
-
- 
-
 
 
  
