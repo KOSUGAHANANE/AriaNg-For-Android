@@ -42,6 +42,7 @@ chmod 755 /data/data/io.neoterm/files/usr/lib/mod_indexfile.so
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_dirlisting.so
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libcares.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_staticfile.so
+/data/data/io.neoterm/files/usr/etc/tls/
 ```
 
 2,手机上打开网络adb连接adb，或者用电脑通过usb连接adb(open network adb in your phone and use following command to connect it,or use a computer instead)
