@@ -36,6 +36,7 @@ chmod 755 /data/data/io.neoterm/files/usr/lib/"libcrypto.so.1.0.0"
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libpcre.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libssh2.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_indexfile.so
+chmod 755 /data/data/io.neoterm/files/usr/lib/"libsqlite3.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_dirlisting.so
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libcares.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_staticfile.so
