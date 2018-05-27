@@ -21,7 +21,7 @@ chmod 755 /data/data/io.neoterm/files/usr/bin/ariang
 chmod 755 /data/data/io.neoterm/files/usr/bin/busybox
 chmod 755 /data/data/io.neoterm/files/usr/bin/applets
 chmod 755 /data/data/io.neoterm/files/usr/etc
-chmod 755 /data/data/io.neoterm/files/usr/etc/Aria2
+chmod -R 755 /data/data/io.neoterm/files/usr/etc/Aria2
 chmod 755 /data/data/io.neoterm/files/usr/bin/sh
 chmod 755 /data/data/io.neoterm/files/usr/lib/libandroid-support.so
 chmod 755 /data/data/io.neoterm/files/usr/lib
