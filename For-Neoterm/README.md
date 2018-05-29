@@ -21,7 +21,7 @@ chmod 755 /data/data/io.neoterm/files/usr/bin/ariang
 chmod 755 /data/data/io.neoterm/files/usr/bin/busybox
 chmod 755 /data/data/io.neoterm/files/usr/bin/applets
 chmod 755 /data/data/io.neoterm/files/usr/etc
-chmod 755 /data/data/io.neoterm/files/usr/etc/Aria2
+chmod -R 755 /data/data/io.neoterm/files/usr/etc/Aria2
 chmod 755 /data/data/io.neoterm/files/usr/bin/sh
 chmod 755 /data/data/io.neoterm/files/usr/lib/libandroid-support.so
 chmod 755 /data/data/io.neoterm/files/usr/lib
@@ -36,6 +36,7 @@ chmod 755 /data/data/io.neoterm/files/usr/lib/"libcrypto.so.1.0.0"
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libpcre.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libssh2.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_indexfile.so
+chmod 755 /data/data/io.neoterm/files/usr/lib/"libsqlite3.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_dirlisting.so
 chmod 755 /data/data/io.neoterm/files/usr/lib/"libcares.so"
 chmod 755 /data/data/io.neoterm/files/usr/lib/mod_staticfile.so
