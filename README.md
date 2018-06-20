@@ -1,4 +1,5 @@
-# Terminal-AriaNg-For-Android
+# Terminal-AriaNg-For-Android 
+# A project let you run aria2 on android phone.
 一个用shell写的简单的AriaNg终端控制程序，在Neoterm或者其他的终端模拟器上运行。
 
 I am workong on Engish translation......
