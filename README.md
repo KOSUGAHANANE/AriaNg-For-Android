@@ -1,21 +1,37 @@
-# A project let you run aria2 on android phone.
-一个用shell写的简单的AriaNg终端控制程序，在Neoterm或者其他的终端模拟器上运行。
+# Ariang 手机端
+在手机上运行的Ariang服务
 
-I am workong on Engish translation......
+分为三个版本。
+1(NeoTerm_Edition):这个版本的只能用在NeoTerm上，而且可以不需要root就能运行，不过需要把NeoTerm挂在后台不然进程会被杀掉，不过你也可以用adb来开启aria2c，这样就不用把NeoTerm挂在后台了。如果手机有网络adb的话直接就更方便了，直接在本机就能开启。这个版本推荐给没有root的机器使用。(没有root应该没法访问外置储存目录，不过adb权限我没试过)
 
-have fun......
+2(Android_Edition):需要用twrp卡刷，安装到/system/目录后怎么恢复出厂设置都不怕了。
 
-分为两个版本。
-1(For_NeoTerm):这个版本的只能用在NeoTerm上，而且可以不需要root就能运行，不过需要把NeoTerm挂在后台不然进程会被杀掉，不过你也可以用adb来开启aria2c，这样就不用把NeoTerm挂在后台了。如果手机有网络adb的话直接就更方便了，直接在本机就能开启。这个版本推荐给没有root的机器使用。(没有root应该没法访问外置储存目录，不过adb权限我没试过)
+3(MT_Edition):这个版本只能用在2.8.2版本以上的mt管理器上，用终端模拟器来运行。
 
-2(For_Android):需要twrp卡刷，安装到 /system/目录后怎么恢复出厂设置都不怕了。
+Ariang android edition<br>
+Ariang runing on android device.
 
-
-
-A simple AriaNg controler created with shell,running on Terminal emulater for Android.
-
-I parted this Project with 2 Version:
+This Project was parted to 3 Edition:
  
-1(For_NeoTerm):This Version can only be used on NeoTerm,And it can work both as root or not.But attention,When you shut NeoTerm down completely,Aria2 will be killed with NeoTerm immediately.But,you can fix it by running aria2c as user shell(2000,adb).(Not running as root may not have permission to download files to microSD card,and I have no idea if user shell can do that).(I recommend thos who can not root their device to use this version).
+1(NeoTerm_Edition):
+This edition can only be used on NeoTerm.
+This Edition should be helpful to those who cannot got there device rooted.
 
-2(For_Android)This version requires twrp recovery mode and unlock bootloader and will be install under /system/.
+
+2(Android_Edition):
+This edition requires twrp recovery mode and unlock bootloader.<br>
+And it will be installed inside android system.
+
+
+3(MT_Edition):
+This edition can only be used on MT Manager 2.8.2 or above.
+This Edition should be helpful to those who cannot got there device rooted.
+
+
+
+
+One attention.Running as root can promise aria2c always running in backround,and highest permission to write file in file system.If you cannot get your device rooted,it also works in unrooted environment.But here's what you should know:
+When you shut TerminalEmulator app down completely,the process of aria2c dies with it.
+One solution is running aria2c as user shell(2000,adb).
+Not running as root may not have permission to download files to most path in Disk card,the ideally way is set download-dir to path '<DISK>/Android/data/io.neoterm/'.
+<br>
